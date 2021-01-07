@@ -1,0 +1,9 @@
+<application>
+  <component name="ParameterNameHintsSettings">
+    <blacklists>
+      <blacklist language="Java">
+        <added pattern="Test.quicksort(a,l,r)" />
+      </blacklist>
+    </blacklists>
+  </component>
+</application>

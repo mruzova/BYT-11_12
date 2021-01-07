@@ -1,0 +1,20 @@
+<application>
+  <component name="FileTypeManager" version="17">
+    <extensionMap>
+      <mapping pattern="Bbb" type="CLASS" />
+      <mapping pattern="Aaa" type="JAVA" />
+      <mapping ext="gradle.kts" type="Kotlin" />
+      <mapping pattern="output" type="PLAIN_TEXT" />
+      <mapping pattern="plecak_old" type="PLAIN_TEXT" />
+      <mapping pattern="figures" type="PLAIN_TEXT" />
+      <mapping pattern="input" type="PLAIN_TEXT" />
+      <mapping pattern="file" type="PLAIN_TEXT" />
+      <mapping pattern="out" type="PLAIN_TEXT" />
+      <mapping pattern="train1" type="PLAIN_TEXT" />
+      <mapping pattern="test1" type="PLAIN_TEXT" />
+      <mapping pattern="Results" type="PLAIN_TEXT" />
+      <mapping pattern="outt" type="PLAIN_TEXT" />
+      <mapping ext="dat" type="PLAIN_TEXT" />
+    </extensionMap>
+  </component>
+</application>
