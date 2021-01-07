@@ -1,4 +1,3 @@
-import java.util.ArrayList;
 import java.util.Date;
 
 public class Result {
@@ -27,6 +26,7 @@ public class Result {
     public void AddResult()
     {
         this.Timestamp = new Date().toString();
+        //Add To Database
     }
 
     public void DeleteResult()

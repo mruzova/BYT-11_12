@@ -32,7 +32,7 @@ public class User {
     {
         this.Username = username;
         this.Password = password;
-        //Save To Database
+        //Add To Database
     }
 
     public void DeleteUser(String username)
