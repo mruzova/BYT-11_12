@@ -1,16 +1,16 @@
 import java.util.ArrayList;
 
-public abstract class User {
+public class User {
 
     ArrayList<Matrix> matrices = new ArrayList<>();
-
     ArrayList<Matrix> results = new ArrayList<>();
 
     String Username;
     String Password;
 
-    public abstract boolean addUserToDB(User user);
-    public abstract boolean removeUserFromDB(User user);
+    public User(String username, String password) {
+        AddUser(username, password);
+    }
 
     public String getUsername() {
         return Username;
@@ -28,18 +28,15 @@ public abstract class User {
         this.Password = password;
     }
 
-    public boolean AddUser(String username, String password)
+    public void AddUser(String username, String password)
     {
         this.Username = username;
         this.Password = password;
-
-        return addUserToDB(this);
+        //Save To Database
     }
 
-    public boolean RemoveUser(String username)
+    public void DeleteUser(String username)
     {
-        this.Username = username;
-
-        return removeUserFromDB(this);
+        //Delete From Database
     }
 }
