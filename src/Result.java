@@ -36,6 +36,6 @@ public class Result {
 
     public void ShareResult()
     {
-
+        //Share To Social Media
     }
 }
