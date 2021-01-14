@@ -1,16 +1,20 @@
+import java.util.ArrayList;
+
 public class Matrix {
     int id;
     double[] valuesX;
     double[] valuesY;
     double[] result;
-    Operation operation;
+    ArrayList<Operation> operation;
+    User user;
 
-    public Matrix(int id, double[] valuesX, double[] valuesY, double[] result, Operation operation) {
+    public Matrix(int id, double[] valuesX, double[] valuesY, double[] result, ArrayList<Operation> operation, User user) {
         this.id = id;
         this.valuesX = valuesX;
         this.valuesY = valuesY;
         this.result = result;
         this.operation = operation;
+        this.user = user;
     }
 
     public int getId() {
@@ -45,11 +49,11 @@ public class Matrix {
         this.result = result;
     }
 
-    public Operation getOperation() {
+    public ArrayList<Operation> getOperation() {
         return operation;
     }
 
-    public void setOperation(Operation operation) {
+    public void setOperation(ArrayList<Operation> operation) {
         this.operation = operation;
     }
     public void Add(double valuesx[], double valuesy[]){

@@ -3,11 +3,13 @@ public class Operation {
     String Name;
     String Description;
     String Algorithm;
+    Matrix matrix;
 
-    public Operation(String name, String description, String algorithm) {
+    public Operation(String name, String description, String algorithm, Matrix matrix) {
         this.Name = name;
         this.Description = description;
         this.Algorithm = algorithm;
+        this.matrix = matrix;
     }
 
     public String getName() {
