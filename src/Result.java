@@ -1,13 +1,14 @@
+import java.util.ArrayList;
 import java.util.Date;
 import java.sql.Timestamp;
 public class Result {
 
-    Matrix matrix;
+    ArrayList<Matrix> matrix;
     User user;
 
     Timestamp Timestamp;
 
-    public Result(Matrix matrix, User user) {
+    public Result(ArrayList<Matrix> matrix, User user) {
         this.matrix = matrix;
         this.user = user;
         AddResult();

@@ -8,6 +8,9 @@ public class Calculation {
     String Description;
     List<Integer> StepResult = new ArrayList<>();
 
+    ArrayList<Matrix> matrix;
+    Operation operation;
+
     // Getters and setters
     public Timestamp getTimestamp() {
         return timestamp;
