@@ -1,11 +1,11 @@
 import java.util.Date;
-
+import java.sql.Timestamp;
 public class Result {
 
     Matrix matrix;
     User user;
 
-    String Timestamp;
+    Timestamp Timestamp;
 
     public Result(Matrix matrix, User user) {
         this.matrix = matrix;
@@ -13,19 +13,19 @@ public class Result {
         AddResult();
     }
 
-    public String getTimestamp()
+    public Timestamp getTimestamp()
     {
         return Timestamp;
     }
 
-    public void setTimestamp(String timestamp)
+    public void setTimestamp(Timestamp timestamp)
     {
         Timestamp = timestamp;
     }
 
     public void AddResult()
     {
-        this.Timestamp = new Date().toString();
+        this.Timestamp = (Timestamp) new Date();
         //Add To Database
     }
 

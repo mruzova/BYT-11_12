@@ -1,8 +1,8 @@
 public class Matrix {
-    private int id;
-    private double[] valuesX;
-    private double[] valuesY;
-    private double[] result;
+    int id;
+    double[] valuesX;
+    double[] valuesY;
+    double[] result;
     Operation operation;
 
     public Matrix(int id, double[] valuesX, double[] valuesY, double[] result, Operation operation) {

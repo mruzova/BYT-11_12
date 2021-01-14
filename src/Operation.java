@@ -4,6 +4,12 @@ public class Operation {
     String Description;
     String Algorithm;
 
+    public Operation(String name, String description, String algorithm) {
+        this.Name = name;
+        this.Description = description;
+        this.Algorithm = algorithm;
+    }
+
     public String getName() {
         return Name;
     }

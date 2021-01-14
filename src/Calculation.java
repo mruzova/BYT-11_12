@@ -4,9 +4,9 @@ import java.util.List;
 
 public class Calculation {
     // Declaration of variables
-    private Timestamp timestamp;
-    private String Description;
-    private List<Integer> StepResult = new ArrayList<>();
+    Timestamp timestamp;
+    String Description;
+    List<Integer> StepResult = new ArrayList<>();
 
     // Getters and setters
     public Timestamp getTimestamp() {
