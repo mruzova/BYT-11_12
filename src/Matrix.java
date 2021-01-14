@@ -57,7 +57,8 @@ public class Matrix {
         this.valuesY = valuesY;
     }
     public void Edit(double valuesx[], double valuesy[]){
-        //edits
+         this.valuesX = valuesX;
+         this.valuesY = valuesY;
     }
     public void Calculate(){
         // calculates
