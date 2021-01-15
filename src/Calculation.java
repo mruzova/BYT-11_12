@@ -36,8 +36,8 @@ public class Calculation {
         StepResult = stepResult;
     }
 
-    // Method which is printing our results
-    public void ShowResult(){
+    // Method which is printing our result
+    public void showResult(){
         System.out.println("Results are:");
         for (int result : this.StepResult){
             System.out.println(result);
