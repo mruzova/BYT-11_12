@@ -5,11 +5,10 @@ public class Operation {
     String Algorithm;
     Matrix matrix;
 
-    public Operation(String name, String description, String algorithm, Matrix matrix) {
+    public Operation(String name, String description, String algorithm) {
         this.Name = name;
         this.Description = description;
         this.Algorithm = algorithm;
-        this.matrix = matrix;
     }
 
     public String getName() {
@@ -36,17 +35,24 @@ public class Operation {
         Algorithm = algorithm;
     }
 
-    public void AddOperation(String Name, String Description, String Algorithm)
-    {
+    public void AddOperation(String Name, String Description, String Algorithm) {
         this.Name = Name;
         this.Description = Description;
         this.Algorithm = Algorithm;
     }
 
-    public void EditOperation(String Name, String Description, String Algorithm)
-    {
+    public void EditOperation(String Name, String Description, String Algorithm) {
         this.Name = Name;
         this.Description = Description;
         this.Algorithm = Algorithm;
+    }
+
+    @Override
+    public String toString() {
+        return "Operation{" +
+                "Name='" + Name + '\'' +
+                ", Description='" + Description + '\'' +
+                ", Algorithm='" + Algorithm +
+                '}';
     }
 }

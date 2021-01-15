@@ -41,6 +41,14 @@ public class Matrix {
         this.valuesY = valuesY;
     }
 
+    public User getUser() {
+        return user;
+    }
+
+    public void setUser(User user) {
+        this.user = user;
+    }
+
     public double[] getResult() {
         return result;
     }

@@ -13,6 +13,7 @@ public class CalculationTest {
     Timestamp timestamp = new Timestamp(System.currentTimeMillis());
     @Before
     public void before() {
+
         // Setting object using all setters.
         calculation = new Calculation();
         calculation.setDescription(description);

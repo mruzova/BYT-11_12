@@ -24,6 +24,22 @@ public class Result {
         Timestamp = timestamp;
     }
 
+    public ArrayList<Matrix> getMatrix() {
+        return matrix;
+    }
+
+    public void setMatrix(ArrayList<Matrix> matrix) {
+        this.matrix = matrix;
+    }
+
+    public User getUser() {
+        return user;
+    }
+
+    public void setUser(User user) {
+        this.user = user;
+    }
+
     public void AddResult()
     {
         this.Timestamp = (Timestamp) new Date();
