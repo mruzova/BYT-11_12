@@ -42,7 +42,7 @@ public class Result {
 
     public void AddResult()
     {
-        this.Timestamp = (Timestamp) new Date();
+        this.Timestamp = new Timestamp(new Date().getTime());
         //Add To Database
     }
 
