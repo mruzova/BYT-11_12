@@ -14,6 +14,7 @@
       <mapping pattern="test1" type="PLAIN_TEXT" />
       <mapping pattern="Results" type="PLAIN_TEXT" />
       <mapping pattern="outt" type="PLAIN_TEXT" />
+      <mapping ext="ser" type="PLAIN_TEXT" />
       <mapping ext="dat" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
