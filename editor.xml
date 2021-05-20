@@ -1,5 +1,6 @@
 <application>
   <component name="CodeInsightSettings">
+    <EXCLUDED_PACKAGE NAME="edu.pja.mas.s18822.demo.model.Manager" />
     <EXCLUDED_PACKAGE NAME="java.util.logging.Logger" />
     <EXCLUDED_PACKAGE NAME="javax.persistence.Id" />
   </component>
