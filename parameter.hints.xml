@@ -3,6 +3,7 @@
     <blacklists>
       <blacklist language="Java">
         <added pattern="Test.quicksort(a,l,r)" />
+        <added pattern="edu.pja.mas.s18822.finalproject.gui.controllers.DepartmentListController.showGUI(patientListController)" />
       </blacklist>
     </blacklists>
   </component>
