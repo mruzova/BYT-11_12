@@ -2,7 +2,6 @@
   <component name="FileTypeManager" version="17">
     <extensionMap>
       <mapping pattern="Bbb" type="CLASS" />
-      <removed_mapping ext="html" type="HTML" />
       <mapping pattern="Aaa" type="JAVA" />
       <mapping ext="gradle.kts" type="Kotlin" />
       <mapping pattern="output" type="PLAIN_TEXT" />
@@ -16,7 +15,6 @@
       <mapping pattern="Results" type="PLAIN_TEXT" />
       <mapping pattern="outt" type="PLAIN_TEXT" />
       <mapping ext="ser" type="PLAIN_TEXT" />
-      <mapping ext="html" type="PLAIN_TEXT" />
       <mapping ext="dat" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
